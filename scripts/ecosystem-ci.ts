@@ -141,7 +141,7 @@ async function main() {
   }
 
   if (command === "consumer-smoke") {
-    const report = runConsumerSmoke(context);
+    const report = await runConsumerSmoke(context);
     writeConsumerSmokeReport(context, report);
     assertConsumerSmokeHealthy(report);
     return;
@@ -334,7 +334,7 @@ function runCertification(context: RuntimeContext): CertificationReport {
   };
 }
 
-function runConsumerSmoke(context: RuntimeContext): ConsumerSmokeReport {
+async function runConsumerSmoke(context: RuntimeContext): Promise<ConsumerSmokeReport> {
   if (!existsSync(context.certificationWorkspaceRoot)) {
     const certification = runCertification(context);
     writeCertificationReport(context, certification);
@@ -421,7 +421,7 @@ function runConsumerSmoke(context: RuntimeContext): ConsumerSmokeReport {
     );
   }
 
-  const vendorSync = runCommand(coreRoot, ["bun", "run", "framework/core/cli/src/bin.ts", "vendor", "sync", exampleRoot]);
+  const vendorSync = await runVendorSyncDirect(context.certificationWorkspaceRoot, exampleRoot);
   const verifiedPaths = [
     join(exampleRoot, "vendor", "libraries", "communication", "package.json"),
     join(exampleRoot, "vendor", "plugins", "notifications-core", "package.json")
@@ -437,6 +437,32 @@ function runConsumerSmoke(context: RuntimeContext): ConsumerSmokeReport {
     verifiedPaths,
     packagedArtifacts
   };
+}
+
+async function runVendorSyncDirect(certificationWorkspaceRoot: string, exampleRoot: string): Promise<CommandResult> {
+  const moduleUrl = pathToFileURL(
+    join(certificationWorkspaceRoot, "gutu-core", "framework", "core", "ecosystem", "src", "index.ts")
+  ).toString();
+
+  try {
+    const ecosystemModule = await import(moduleUrl);
+    const result = await ecosystemModule.syncWorkspaceVendor(exampleRoot);
+    return {
+      ok: true,
+      command: `syncWorkspaceVendor(${exampleRoot})`,
+      code: 0,
+      stdout: trimOutput(JSON.stringify(result, null, 2)),
+      stderr: ""
+    };
+  } catch (error) {
+    return {
+      ok: false,
+      command: `syncWorkspaceVendor(${exampleRoot})`,
+      code: 1,
+      stdout: "",
+      stderr: trimOutput(error instanceof Error ? error.stack ?? error.message : String(error))
+    };
+  }
 }
 
 function discoverPackages(context: RuntimeContext): PackageRecord[] {
@@ -1040,7 +1066,11 @@ function writeJson(path: string, value: unknown) {
   writeFileSync(path, JSON.stringify(value, null, 2) + "\n", "utf8");
 }
 
-main().catch((error) => {
-  process.stderr.write(`${error instanceof Error ? error.stack ?? error.message : String(error)}\n`);
-  process.exit(1);
-});
+main()
+  .then(() => {
+    process.exit(0);
+  })
+  .catch((error) => {
+    process.stderr.write(`${error instanceof Error ? error.stack ?? error.message : String(error)}\n`);
+    process.exit(1);
+  });
