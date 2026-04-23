@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-04-23T08:18:59.512Z",
+    "generatedAt": "2026-04-23T10:21:19.977Z",
     "scenarioCount": 11,
     "passingCount": 11,
     "failingCount": 0,
     "totalStepCount": 105,
-    "totalDurationMs": 319
+    "totalDurationMs": 435
   },
   "scenarios": [
     {
@@ -18,18 +18,18 @@
         "accounting-core"
       ],
       "stepCount": 12,
-      "durationMs": 82,
+      "durationMs": 118,
       "pluginSummaries": [
         {
           "pluginId": "crm-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
           "pluginId": "sales-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 4,
           "openExceptions": 0
         },
         {
@@ -50,12 +50,12 @@
         "accounting-core"
       ],
       "stepCount": 9,
-      "durationMs": 30,
+      "durationMs": 36,
       "pluginSummaries": [
         {
           "pluginId": "procurement-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 4,
           "openExceptions": 0
         },
         {
@@ -81,12 +81,12 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 21,
+      "durationMs": 26,
       "pluginSummaries": [
         {
           "pluginId": "projects-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
@@ -106,18 +106,18 @@
         "inventory-core"
       ],
       "stepCount": 8,
-      "durationMs": 21,
+      "durationMs": 30,
       "pluginSummaries": [
         {
           "pluginId": "manufacturing-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
           "pluginId": "inventory-core",
           "primaryRecords": 2,
-          "secondaryRecords": 0,
+          "secondaryRecords": 1,
           "openExceptions": 0
         }
       ]
@@ -133,7 +133,7 @@
         "accounting-core"
       ],
       "stepCount": 14,
-      "durationMs": 35,
+      "durationMs": 44,
       "pluginSummaries": [
         {
           "pluginId": "support-service-core",
@@ -144,13 +144,13 @@
         {
           "pluginId": "field-service-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 4,
           "openExceptions": 0
         },
         {
           "pluginId": "inventory-core",
           "primaryRecords": 2,
-          "secondaryRecords": 0,
+          "secondaryRecords": 1,
           "openExceptions": 0
         },
         {
@@ -170,12 +170,12 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 19,
+      "durationMs": 26,
       "pluginSummaries": [
         {
           "pluginId": "pos-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
@@ -195,12 +195,12 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 19,
+      "durationMs": 30,
       "pluginSummaries": [
         {
           "pluginId": "hr-payroll-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
@@ -221,18 +221,18 @@
         "accounting-core"
       ],
       "stepCount": 14,
-      "durationMs": 32,
+      "durationMs": 43,
       "pluginSummaries": [
         {
           "pluginId": "contracts-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
           "pluginId": "subscriptions-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
@@ -253,12 +253,12 @@
         "support-service-core"
       ],
       "stepCount": 7,
-      "durationMs": 20,
+      "durationMs": 24,
       "pluginSummaries": [
         {
           "pluginId": "business-portals-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
@@ -284,12 +284,12 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 19,
+      "durationMs": 29,
       "pluginSummaries": [
         {
           "pluginId": "treasury-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
@@ -309,12 +309,12 @@
         "accounting-core"
       ],
       "stepCount": 9,
-      "durationMs": 21,
+      "durationMs": 29,
       "pluginSummaries": [
         {
           "pluginId": "e-invoicing-core",
           "primaryRecords": 2,
-          "secondaryRecords": 1,
+          "secondaryRecords": 3,
           "openExceptions": 0
         },
         {
