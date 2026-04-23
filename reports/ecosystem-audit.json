@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T10:43:02.500Z",
+  "generatedAt": "2026-04-22T17:52:31.328Z",
   "mode": "local",
   "workspaceRoot": "/Users/chinmoybhuyan/Desktop/Personal/Framework",
   "integrationRoot": "/Users/chinmoybhuyan/Desktop/Personal/Framework/integrations/gutu-ecosystem-integration",
@@ -544,6 +544,1923 @@
       },
       "workspaceDependencies": [
         "@platform/ui"
+      ]
+    },
+    {
+      "id": "@platform/payments-core",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-core",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-core",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": []
+    },
+    {
+      "id": "@platform/payments-provider-2c2p",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-2c2p",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-2c2p",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-adyen",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-adyen",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-adyen",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-airwallex",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-airwallex",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-airwallex",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-alipay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-alipay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-alipay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-amazon-pay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-amazon-pay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-amazon-pay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-amazon-payment-services",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-amazon-payment-services",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-amazon-payment-services",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-asiapay-paydollar",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-asiapay-paydollar",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-asiapay-paydollar",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-authorize-net",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-authorize-net",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-authorize-net",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-billplz",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-billplz",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-billplz",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-bluesnap",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-bluesnap",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-bluesnap",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-braintree",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-braintree",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-braintree",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-buckaroo",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-buckaroo",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-buckaroo",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-cashfree-payments",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-cashfree-payments",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-cashfree-payments",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-ccavenue",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-ccavenue",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-ccavenue",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-checkout-com",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-checkout-com",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-checkout-com",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-cloudpayments",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-cloudpayments",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-cloudpayments",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-conekta",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-conekta",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-conekta",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-cybersource",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-cybersource",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-cybersource",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-dlocal",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-dlocal",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-dlocal",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-doku",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-doku",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-doku",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-dwolla",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-dwolla",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-dwolla",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-easebuzz",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-easebuzz",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-easebuzz",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-ebanx",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-ebanx",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-ebanx",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-ecommpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-ecommpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-ecommpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-eway",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-eway",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-eway",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-eximbay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-eximbay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-eximbay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-fincode-bygmo",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-fincode-bygmo",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-fincode-bygmo",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-fiserv",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-fiserv",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-fiserv",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-fiuu",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-fiuu",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-fiuu",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-flutterwave",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-flutterwave",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-flutterwave",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-fondy",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-fondy",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-fondy",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-forte",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-forte",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-forte",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-global-payments",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-global-payments",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-global-payments",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-helcim",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-helcim",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-helcim",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-hitpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-hitpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-hitpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-hyperpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-hyperpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-hyperpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-instamojo",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-instamojo",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-instamojo",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-intasend",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-intasend",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-intasend",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-ipay88",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-ipay88",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-ipay88",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-iyzico",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-iyzico",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-iyzico",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-klarna",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-klarna",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-klarna",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-komoju",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-komoju",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-komoju",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-kushki",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-kushki",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-kushki",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-liqpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-liqpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-liqpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-m-pesa-daraja",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-m-pesa-daraja",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-m-pesa-daraja",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-mercado-pago",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-mercado-pago",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-mercado-pago",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-midtrans",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-midtrans",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-midtrans",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-mollie",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-mollie",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-mollie",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-monei",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-monei",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-monei",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-moneris",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-moneris",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-moneris",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-mtn-momo",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-mtn-momo",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-mtn-momo",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-multisafepay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-multisafepay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-multisafepay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-myfatoorah",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-myfatoorah",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-myfatoorah",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-nexi-checkout-nets",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-nexi-checkout-nets",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-nexi-checkout-nets",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-nmi",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-nmi",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-nmi",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-nuvei",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-nuvei",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-nuvei",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-openpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-openpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-openpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-opn-payments-omise",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-opn-payments-omise",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-opn-payments-omise",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-ozow",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-ozow",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-ozow",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-pagar-me",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-pagar-me",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-pagar-me",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-pagbank-pagseguro",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-pagbank-pagseguro",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-pagbank-pagseguro",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-pay-jp",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-pay-jp",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-pay-jp",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-payfast",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-payfast",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-payfast",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-payjunction",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-payjunction",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-payjunction",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paymob",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paymob",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paymob",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paymongo",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paymongo",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paymongo",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paypal-checkout",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paypal-checkout",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paypal-checkout",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-payrexx",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-payrexx",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-payrexx",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paysafe",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paysafe",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paysafe",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paysera",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paysera",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paysera",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paystack",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paystack",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paystack",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paytabs",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paytabs",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paytabs",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paytm-payment-gateway",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paytm-payment-gateway",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paytm-payment-gateway",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-paytrail",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-paytrail",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-paytrail",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-payu-india",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-payu-india",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-payu-india",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-peach-payments",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-peach-payments",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-peach-payments",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-pesapal",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-pesapal",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-pesapal",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-phonepe-payment-gateway",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-phonepe-payment-gateway",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-phonepe-payment-gateway",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-placetopay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-placetopay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-placetopay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-przelewy24",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-przelewy24",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-przelewy24",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-rapyd",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-rapyd",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-rapyd",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-razorpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-razorpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-razorpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-redsys",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-redsys",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-redsys",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-senangpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-senangpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-senangpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-shift4",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-shift4",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-shift4",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-square",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-square",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-square",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-stripe",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-stripe",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-stripe",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-tap-payments",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-tap-payments",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-tap-payments",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-toss-payments",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-toss-payments",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-toss-payments",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-toyyibpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-toyyibpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-toyyibpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-tpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-tpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-tpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-transbank",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-transbank",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-transbank",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-vipps-mobilepay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-vipps-mobilepay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-vipps-mobilepay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-viva-com",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-viva-com",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-viva-com",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-wechat-pay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-wechat-pay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-wechat-pay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-wompi",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-wompi",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-wompi",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-worldline",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-worldline",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-worldline",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-worldpay",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-worldpay",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-worldpay",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-xendit",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-xendit",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-xendit",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
+      ]
+    },
+    {
+      "id": "@platform/payments-provider-yookassa",
+      "kind": "library",
+      "private": false,
+      "repoRootRelative": "libraries/gutu-lib-payments",
+      "packageRelative": "libraries/gutu-lib-payments/framework/libraries/payments-provider-yookassa",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/libraries/gutu-lib-payments/framework/libraries/payments-provider-yookassa",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/payments-core"
       ]
     },
     {
@@ -1493,6 +3410,38 @@
         "@platform/ui-shell",
         "@plugins/audit-core",
         "@plugins/auth-core",
+        "@plugins/org-tenant-core",
+        "@plugins/role-policy-core"
+      ]
+    },
+    {
+      "id": "@plugins/payments-core",
+      "kind": "plugin",
+      "private": false,
+      "repoRootRelative": "plugins/gutu-plugin-payments-core",
+      "packageRelative": "plugins/gutu-plugin-payments-core/framework/builtin-plugins/payments-core",
+      "packageAbsolute": "/Users/chinmoybhuyan/Desktop/Personal/Framework/plugins/gutu-plugin-payments-core/framework/builtin-plugins/payments-core",
+      "scripts": {
+        "build": "bunx tsc -p tsconfig.build.json",
+        "typecheck": "bunx tsc -p tsconfig.json --noEmit",
+        "lint": "bunx eslint .",
+        "test": "bun test",
+        "test:unit": "bun test tests/unit",
+        "test:contracts": "bun test tests/contracts"
+      },
+      "workspaceDependencies": [
+        "@platform/admin-contracts",
+        "@platform/ai-runtime",
+        "@platform/jobs",
+        "@platform/kernel",
+        "@platform/payments-core",
+        "@platform/permissions",
+        "@platform/schema",
+        "@platform/ui-shell",
+        "@plugins/audit-core",
+        "@plugins/auth-core",
+        "@plugins/integration-core",
+        "@plugins/jobs-core",
         "@plugins/org-tenant-core",
         "@plugins/role-policy-core"
       ]

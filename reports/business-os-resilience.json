@@ -1,0 +1,536 @@
+{
+  "summary": {
+    "generatedAt": "2026-04-23T07:10:06.711Z",
+    "pluginCount": 25,
+    "passingCount": 25,
+    "failingCount": 0,
+    "totalDurationMs": 640
+  },
+  "plugins": [
+    {
+      "pluginId": "party-relationships-core",
+      "ok": true,
+      "durationMs": 57,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "product-catalog-core",
+      "ok": true,
+      "durationMs": 27,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "pricing-tax-core",
+      "ok": true,
+      "durationMs": 26,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "traceability-core",
+      "ok": true,
+      "durationMs": 27,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "accounting-core",
+      "ok": true,
+      "durationMs": 24,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "crm-core",
+      "ok": true,
+      "durationMs": 25,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "sales.quotes.create",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "sales-core",
+      "ok": true,
+      "durationMs": 27,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 2,
+        "retriedTarget": "inventory.reservations.allocate",
+        "resolvedCount": 2
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "procurement-core",
+      "ok": true,
+      "durationMs": 25,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 2,
+        "retriedTarget": "inventory.receipts.record",
+        "resolvedCount": 2
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "inventory-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "projects-core",
+      "ok": true,
+      "durationMs": 25,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "support-service-core",
+      "ok": true,
+      "durationMs": 25,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "inventory.transfers.request",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "pos-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "manufacturing-core",
+      "ok": true,
+      "durationMs": 25,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 2,
+        "retriedTarget": "inventory.transfers.request",
+        "resolvedCount": 2
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "quality-core",
+      "ok": true,
+      "durationMs": 24,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "assets-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "hr-payroll-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "contracts-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "subscriptions-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "business-portals-core",
+      "ok": true,
+      "durationMs": 24,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 2,
+        "retriedTarget": "sales.quotes.create",
+        "resolvedCount": 2
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "field-service-core",
+      "ok": true,
+      "durationMs": 24,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 2,
+        "retriedTarget": "support.service-orders.dispatch",
+        "resolvedCount": 2
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "maintenance-cmms-core",
+      "ok": true,
+      "durationMs": 24,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 2,
+        "retriedTarget": "support.service-orders.dispatch",
+        "resolvedCount": 2
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "treasury-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.payments.allocate",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "e-invoicing-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 2,
+        "retriedTarget": "accounting.billing.post",
+        "resolvedCount": 2
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "analytics-bi-core",
+      "ok": true,
+      "durationMs": 23,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.reconciliation.queue",
+        "resolvedCount": 1
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    },
+    {
+      "pluginId": "ai-assist-core",
+      "ok": true,
+      "durationMs": 24,
+      "duplicateCreateProtected": true,
+      "revisionMismatchProtected": true,
+      "advanceRecovery": {
+        "stage": "advance",
+        "initialPendingCount": 1,
+        "retriedTarget": "traceability.links.record",
+        "resolvedCount": 1
+      },
+      "reconcileRecovery": {
+        "stage": "reconcile",
+        "initialPendingCount": 3,
+        "retriedTarget": "crm.handoffs.prepare",
+        "resolvedCount": 3
+      },
+      "exceptionCount": 1,
+      "primaryRecordCount": 1
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 # Ecosystem Audit
 
-Generated: 2026-04-22T10:43:02.500Z
+Generated: 2026-04-22T17:52:31.328Z
 
 - Source mode: local
 - Source workspace: `/Users/chinmoybhuyan/Desktop/Personal/Framework`
-- Packages discovered: 73
+- Packages discovered: 175
 - Core runtime packages: 12
 - Compatibility shims: 0
 - Unresolved workspace dependencies: 0

@@ -1,0 +1,329 @@
+{
+  "summary": {
+    "generatedAt": "2026-04-23T07:10:06.033Z",
+    "scenarioCount": 11,
+    "passingCount": 11,
+    "failingCount": 0,
+    "totalStepCount": 105,
+    "totalDurationMs": 301
+  },
+  "scenarios": [
+    {
+      "id": "quote-to-cash",
+      "ok": true,
+      "label": "Quote to Cash",
+      "pluginIds": [
+        "crm-core",
+        "sales-core",
+        "accounting-core"
+      ],
+      "stepCount": 12,
+      "durationMs": 78,
+      "pluginSummaries": [
+        {
+          "pluginId": "crm-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "sales-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "procure-to-pay",
+      "ok": true,
+      "label": "Procure to Pay",
+      "pluginIds": [
+        "procurement-core",
+        "inventory-core",
+        "accounting-core"
+      ],
+      "stepCount": 9,
+      "durationMs": 27,
+      "pluginSummaries": [
+        {
+          "pluginId": "procurement-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "inventory-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 0,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "project-to-bill",
+      "ok": true,
+      "label": "Project to Bill",
+      "pluginIds": [
+        "projects-core",
+        "accounting-core"
+      ],
+      "stepCount": 8,
+      "durationMs": 18,
+      "pluginSummaries": [
+        {
+          "pluginId": "projects-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "plan-to-produce",
+      "ok": true,
+      "label": "Plan to Produce",
+      "pluginIds": [
+        "manufacturing-core",
+        "inventory-core"
+      ],
+      "stepCount": 8,
+      "durationMs": 19,
+      "pluginSummaries": [
+        {
+          "pluginId": "manufacturing-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "inventory-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 0,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "service-dispatch-to-bill",
+      "ok": true,
+      "label": "Service Dispatch to Bill",
+      "pluginIds": [
+        "support-service-core",
+        "field-service-core",
+        "inventory-core",
+        "accounting-core"
+      ],
+      "stepCount": 14,
+      "durationMs": 33,
+      "pluginSummaries": [
+        {
+          "pluginId": "support-service-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "field-service-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "inventory-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 0,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "retail-pos-close",
+      "ok": true,
+      "label": "Retail POS Close",
+      "pluginIds": [
+        "pos-core",
+        "accounting-core"
+      ],
+      "stepCount": 8,
+      "durationMs": 19,
+      "pluginSummaries": [
+        {
+          "pluginId": "pos-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "hire-to-payroll",
+      "ok": true,
+      "label": "Hire to Payroll",
+      "pluginIds": [
+        "hr-payroll-core",
+        "accounting-core"
+      ],
+      "stepCount": 8,
+      "durationMs": 19,
+      "pluginSummaries": [
+        {
+          "pluginId": "hr-payroll-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "contract-to-renewal",
+      "ok": true,
+      "label": "Contract to Renewal",
+      "pluginIds": [
+        "contracts-core",
+        "subscriptions-core",
+        "accounting-core"
+      ],
+      "stepCount": 14,
+      "durationMs": 31,
+      "pluginSummaries": [
+        {
+          "pluginId": "contracts-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "subscriptions-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 3,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "portal-self-service",
+      "ok": true,
+      "label": "Portal Self Service",
+      "pluginIds": [
+        "business-portals-core",
+        "sales-core",
+        "support-service-core"
+      ],
+      "stepCount": 7,
+      "durationMs": 18,
+      "pluginSummaries": [
+        {
+          "pluginId": "business-portals-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "sales-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 0,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "support-service-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 0,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "treasury-settlement",
+      "ok": true,
+      "label": "Treasury Settlement",
+      "pluginIds": [
+        "treasury-core",
+        "accounting-core"
+      ],
+      "stepCount": 8,
+      "durationMs": 18,
+      "pluginSummaries": [
+        {
+          "pluginId": "treasury-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    },
+    {
+      "id": "e-invoicing-cycle",
+      "ok": true,
+      "label": "E-Invoicing Cycle",
+      "pluginIds": [
+        "e-invoicing-core",
+        "accounting-core"
+      ],
+      "stepCount": 9,
+      "durationMs": 21,
+      "pluginSummaries": [
+        {
+          "pluginId": "e-invoicing-core",
+          "primaryRecords": 2,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        },
+        {
+          "pluginId": "accounting-core",
+          "primaryRecords": 3,
+          "secondaryRecords": 1,
+          "openExceptions": 0
+        }
+      ]
+    }
+  ]
+}
