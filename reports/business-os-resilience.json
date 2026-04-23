@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-04-23T07:10:06.711Z",
+    "generatedAt": "2026-04-23T08:19:00.203Z",
     "pluginCount": 25,
     "passingCount": 25,
     "failingCount": 0,
-    "totalDurationMs": 640
+    "totalDurationMs": 652
   },
   "plugins": [
     {
@@ -31,7 +31,7 @@
     {
       "pluginId": "product-catalog-core",
       "ok": true,
-      "durationMs": 27,
+      "durationMs": 28,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -73,7 +73,7 @@
     {
       "pluginId": "traceability-core",
       "ok": true,
-      "durationMs": 27,
+      "durationMs": 25,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -136,7 +136,7 @@
     {
       "pluginId": "sales-core",
       "ok": true,
-      "durationMs": 27,
+      "durationMs": 25,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -178,7 +178,7 @@
     {
       "pluginId": "inventory-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 25,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -199,7 +199,7 @@
     {
       "pluginId": "projects-core",
       "ok": true,
-      "durationMs": 25,
+      "durationMs": 24,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -220,7 +220,7 @@
     {
       "pluginId": "support-service-core",
       "ok": true,
-      "durationMs": 25,
+      "durationMs": 24,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -241,7 +241,7 @@
     {
       "pluginId": "pos-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 24,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -262,7 +262,7 @@
     {
       "pluginId": "manufacturing-core",
       "ok": true,
-      "durationMs": 25,
+      "durationMs": 24,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -325,7 +325,7 @@
     {
       "pluginId": "hr-payroll-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 24,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -346,7 +346,7 @@
     {
       "pluginId": "contracts-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 27,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -367,7 +367,7 @@
     {
       "pluginId": "subscriptions-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 26,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -388,7 +388,7 @@
     {
       "pluginId": "business-portals-core",
       "ok": true,
-      "durationMs": 24,
+      "durationMs": 28,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -409,7 +409,7 @@
     {
       "pluginId": "field-service-core",
       "ok": true,
-      "durationMs": 24,
+      "durationMs": 27,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -451,7 +451,7 @@
     {
       "pluginId": "treasury-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 22,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -493,7 +493,7 @@
     {
       "pluginId": "analytics-bi-core",
       "ok": true,
-      "durationMs": 23,
+      "durationMs": 22,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -514,7 +514,7 @@
     {
       "pluginId": "ai-assist-core",
       "ok": true,
-      "durationMs": 24,
+      "durationMs": 26,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {

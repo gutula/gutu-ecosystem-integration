@@ -1,10 +1,10 @@
 # Business OS End-to-End Flows
 
-Generated at: 2026-04-23T07:10:06.033Z
+Generated at: 2026-04-23T08:18:59.512Z
 
 - Passing scenarios: 11/11
 - Total steps: 105
-- Aggregate duration: 301 ms
+- Aggregate duration: 319 ms
 
 ## Scenarios
 
@@ -14,7 +14,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `crm-core`, `sales-core`, `accounting-core`
 - Steps: 12
-- Duration: 78 ms
+- Duration: 82 ms
 - Plugin summaries:
   - `crm-core`: primary=2, secondary=1, openExceptions=0
   - `sales-core`: primary=2, secondary=1, openExceptions=0
@@ -26,7 +26,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `procurement-core`, `inventory-core`, `accounting-core`
 - Steps: 9
-- Duration: 27 ms
+- Duration: 30 ms
 - Plugin summaries:
   - `procurement-core`: primary=2, secondary=1, openExceptions=0
   - `inventory-core`: primary=2, secondary=0, openExceptions=0
@@ -38,7 +38,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `projects-core`, `accounting-core`
 - Steps: 8
-- Duration: 18 ms
+- Duration: 21 ms
 - Plugin summaries:
   - `projects-core`: primary=2, secondary=1, openExceptions=0
   - `accounting-core`: primary=2, secondary=1, openExceptions=0
@@ -49,7 +49,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `manufacturing-core`, `inventory-core`
 - Steps: 8
-- Duration: 19 ms
+- Duration: 21 ms
 - Plugin summaries:
   - `manufacturing-core`: primary=2, secondary=1, openExceptions=0
   - `inventory-core`: primary=2, secondary=0, openExceptions=0
@@ -60,7 +60,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `support-service-core`, `field-service-core`, `inventory-core`, `accounting-core`
 - Steps: 14
-- Duration: 33 ms
+- Duration: 35 ms
 - Plugin summaries:
   - `support-service-core`: primary=2, secondary=1, openExceptions=0
   - `field-service-core`: primary=2, secondary=1, openExceptions=0
@@ -95,7 +95,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `contracts-core`, `subscriptions-core`, `accounting-core`
 - Steps: 14
-- Duration: 31 ms
+- Duration: 32 ms
 - Plugin summaries:
   - `contracts-core`: primary=2, secondary=1, openExceptions=0
   - `subscriptions-core`: primary=2, secondary=1, openExceptions=0
@@ -107,7 +107,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `business-portals-core`, `sales-core`, `support-service-core`
 - Steps: 7
-- Duration: 18 ms
+- Duration: 20 ms
 - Plugin summaries:
   - `business-portals-core`: primary=2, secondary=1, openExceptions=0
   - `sales-core`: primary=2, secondary=0, openExceptions=0
@@ -119,7 +119,7 @@ Generated at: 2026-04-23T07:10:06.033Z
 - Status: passed
 - Plugins: `treasury-core`, `accounting-core`
 - Steps: 8
-- Duration: 18 ms
+- Duration: 19 ms
 - Plugin summaries:
   - `treasury-core`: primary=2, secondary=1, openExceptions=0
   - `accounting-core`: primary=2, secondary=1, openExceptions=0
