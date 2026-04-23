@@ -1,16 +1,16 @@
 # Business OS Resilience Flows
 
-Generated at: 2026-04-23T10:21:21.040Z
+Generated at: 2026-04-23T10:50:09.347Z
 
 - Passing plugins: 25/25
-- Aggregate duration: 1017 ms
+- Aggregate duration: 972 ms
 
 ## Plugins
 
 ### party-relationships-core
 
 - Status: passed
-- Duration: 80 ms
+- Duration: 77 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -20,7 +20,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### product-catalog-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 36 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -30,7 +30,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### pricing-tax-core
 
 - Status: passed
-- Duration: 43 ms
+- Duration: 33 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -40,7 +40,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### traceability-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 35 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -60,7 +60,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### crm-core
 
 - Status: passed
-- Duration: 40 ms
+- Duration: 36 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -70,7 +70,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### sales-core
 
 - Status: passed
-- Duration: 41 ms
+- Duration: 36 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -80,7 +80,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### procurement-core
 
 - Status: passed
-- Duration: 40 ms
+- Duration: 36 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -90,7 +90,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### inventory-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 33 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -100,7 +100,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### projects-core
 
 - Status: passed
-- Duration: 37 ms
+- Duration: 34 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -110,7 +110,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### support-service-core
 
 - Status: passed
-- Duration: 36 ms
+- Duration: 34 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -120,7 +120,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### pos-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 33 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -130,7 +130,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### manufacturing-core
 
 - Status: passed
-- Duration: 35 ms
+- Duration: 39 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -140,7 +140,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### quality-core
 
 - Status: passed
-- Duration: 48 ms
+- Duration: 67 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -150,7 +150,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### assets-core
 
 - Status: passed
-- Duration: 36 ms
+- Duration: 42 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -160,7 +160,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### hr-payroll-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 45 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -170,7 +170,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### contracts-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 37 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -180,7 +180,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### subscriptions-core
 
 - Status: passed
-- Duration: 37 ms
+- Duration: 35 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -200,7 +200,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### field-service-core
 
 - Status: passed
-- Duration: 40 ms
+- Duration: 36 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -210,7 +210,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### maintenance-cmms-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 35 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -220,7 +220,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### treasury-core
 
 - Status: passed
-- Duration: 38 ms
+- Duration: 34 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -230,7 +230,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### e-invoicing-core
 
 - Status: passed
-- Duration: 39 ms
+- Duration: 34 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -240,7 +240,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### analytics-bi-core
 
 - Status: passed
-- Duration: 45 ms
+- Duration: 37 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4
@@ -250,7 +250,7 @@ Generated at: 2026-04-23T10:21:21.040Z
 ### ai-assist-core
 
 - Status: passed
-- Duration: 47 ms
+- Duration: 39 ms
 - Duplicate create protection: passed
 - Revision mismatch protection: passed
 - Exception records closed after recovery: 4

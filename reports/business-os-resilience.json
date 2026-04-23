@@ -1,16 +1,16 @@
 {
   "summary": {
-    "generatedAt": "2026-04-23T10:21:21.040Z",
+    "generatedAt": "2026-04-23T10:50:09.347Z",
     "pluginCount": 25,
     "passingCount": 25,
     "failingCount": 0,
-    "totalDurationMs": 1017
+    "totalDurationMs": 972
   },
   "plugins": [
     {
       "pluginId": "party-relationships-core",
       "ok": true,
-      "durationMs": 80,
+      "durationMs": 77,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -31,7 +31,7 @@
     {
       "pluginId": "product-catalog-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 36,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -52,7 +52,7 @@
     {
       "pluginId": "pricing-tax-core",
       "ok": true,
-      "durationMs": 43,
+      "durationMs": 33,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -73,7 +73,7 @@
     {
       "pluginId": "traceability-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 35,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -115,7 +115,7 @@
     {
       "pluginId": "crm-core",
       "ok": true,
-      "durationMs": 40,
+      "durationMs": 36,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -136,7 +136,7 @@
     {
       "pluginId": "sales-core",
       "ok": true,
-      "durationMs": 41,
+      "durationMs": 36,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -157,7 +157,7 @@
     {
       "pluginId": "procurement-core",
       "ok": true,
-      "durationMs": 40,
+      "durationMs": 36,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -178,7 +178,7 @@
     {
       "pluginId": "inventory-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 33,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -199,7 +199,7 @@
     {
       "pluginId": "projects-core",
       "ok": true,
-      "durationMs": 37,
+      "durationMs": 34,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -220,7 +220,7 @@
     {
       "pluginId": "support-service-core",
       "ok": true,
-      "durationMs": 36,
+      "durationMs": 34,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -241,7 +241,7 @@
     {
       "pluginId": "pos-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 33,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -262,7 +262,7 @@
     {
       "pluginId": "manufacturing-core",
       "ok": true,
-      "durationMs": 35,
+      "durationMs": 39,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -283,7 +283,7 @@
     {
       "pluginId": "quality-core",
       "ok": true,
-      "durationMs": 48,
+      "durationMs": 67,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -304,7 +304,7 @@
     {
       "pluginId": "assets-core",
       "ok": true,
-      "durationMs": 36,
+      "durationMs": 42,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -325,7 +325,7 @@
     {
       "pluginId": "hr-payroll-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 45,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -346,7 +346,7 @@
     {
       "pluginId": "contracts-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 37,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -367,7 +367,7 @@
     {
       "pluginId": "subscriptions-core",
       "ok": true,
-      "durationMs": 37,
+      "durationMs": 35,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -409,7 +409,7 @@
     {
       "pluginId": "field-service-core",
       "ok": true,
-      "durationMs": 40,
+      "durationMs": 36,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -430,7 +430,7 @@
     {
       "pluginId": "maintenance-cmms-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 35,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -451,7 +451,7 @@
     {
       "pluginId": "treasury-core",
       "ok": true,
-      "durationMs": 38,
+      "durationMs": 34,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -472,7 +472,7 @@
     {
       "pluginId": "e-invoicing-core",
       "ok": true,
-      "durationMs": 39,
+      "durationMs": 34,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -493,7 +493,7 @@
     {
       "pluginId": "analytics-bi-core",
       "ok": true,
-      "durationMs": 45,
+      "durationMs": 37,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {
@@ -514,7 +514,7 @@
     {
       "pluginId": "ai-assist-core",
       "ok": true,
-      "durationMs": 47,
+      "durationMs": 39,
       "duplicateCreateProtected": true,
       "revisionMismatchProtected": true,
       "advanceRecovery": {

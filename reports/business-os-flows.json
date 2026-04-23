@@ -1,11 +1,11 @@
 {
   "summary": {
-    "generatedAt": "2026-04-23T10:21:19.977Z",
+    "generatedAt": "2026-04-23T10:50:08.332Z",
     "scenarioCount": 11,
     "passingCount": 11,
     "failingCount": 0,
     "totalStepCount": 105,
-    "totalDurationMs": 435
+    "totalDurationMs": 450
   },
   "scenarios": [
     {
@@ -18,7 +18,7 @@
         "accounting-core"
       ],
       "stepCount": 12,
-      "durationMs": 118,
+      "durationMs": 128,
       "pluginSummaries": [
         {
           "pluginId": "crm-core",
@@ -50,7 +50,7 @@
         "accounting-core"
       ],
       "stepCount": 9,
-      "durationMs": 36,
+      "durationMs": 43,
       "pluginSummaries": [
         {
           "pluginId": "procurement-core",
@@ -81,7 +81,7 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 26,
+      "durationMs": 29,
       "pluginSummaries": [
         {
           "pluginId": "projects-core",
@@ -106,7 +106,7 @@
         "inventory-core"
       ],
       "stepCount": 8,
-      "durationMs": 30,
+      "durationMs": 28,
       "pluginSummaries": [
         {
           "pluginId": "manufacturing-core",
@@ -133,7 +133,7 @@
         "accounting-core"
       ],
       "stepCount": 14,
-      "durationMs": 44,
+      "durationMs": 46,
       "pluginSummaries": [
         {
           "pluginId": "support-service-core",
@@ -195,7 +195,7 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 30,
+      "durationMs": 24,
       "pluginSummaries": [
         {
           "pluginId": "hr-payroll-core",
@@ -221,7 +221,7 @@
         "accounting-core"
       ],
       "stepCount": 14,
-      "durationMs": 43,
+      "durationMs": 48,
       "pluginSummaries": [
         {
           "pluginId": "contracts-core",
@@ -284,7 +284,7 @@
         "accounting-core"
       ],
       "stepCount": 8,
-      "durationMs": 29,
+      "durationMs": 26,
       "pluginSummaries": [
         {
           "pluginId": "treasury-core",
@@ -309,7 +309,7 @@
         "accounting-core"
       ],
       "stepCount": 9,
-      "durationMs": 29,
+      "durationMs": 28,
       "pluginSummaries": [
         {
           "pluginId": "e-invoicing-core",
